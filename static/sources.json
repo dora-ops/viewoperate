@@ -1,0 +1,13 @@
+{
+	"socketurl" : "http://10.108.94.233:8089/",
+	"source-a" :  "this is from source-a",
+	"source-b" :  "this is from source-b",
+	"source-c" :  "./static/image/source-c.jpg",
+	"source-d" :  "./static/image/source-d.jpg",
+	"source-e" :  [],
+	"source-f" :  [],
+	"camera1" :  "10.109.252.59:9093",
+	"camera2" :  "10.109.252.59:9094",
+	"map1" : ["./static/image/map.jpg",[[109.2,18.1],[109.5,18.4]],"./static/image/dot.png"],
+	"map2" : ["./static/image/map2.jpg",[[109.2,18.1],[109.5,18.4]],"./static/image/dot2.png"]
+}

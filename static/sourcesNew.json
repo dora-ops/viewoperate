@@ -1,0 +1,43 @@
+{
+    "readme": "测试用，放入vuex后废除。来源：staticInfo绑定时设备摘抄，realTimeData绑定时根据要求编个初始值也存入了entity的initialData.",
+    "source-a": {
+        "staticInfo": "",
+        "realTimeData": "the text to show will come from source-a"
+    },
+    "source-b": {
+        "staticInfo": "",
+        "realTimeData": "the text to show will come from source-b"
+    },
+    "source-c": {
+        "staticInfo": "",
+        "realTimeData": "./static/image/source-c.jpg"
+    },
+    "source-d": {
+        "staticInfo": "",
+        "realTimeData": "./static/image/source-d.jpg"
+    },    
+    "source-e": {
+        "staticInfo": "",
+        "realTimeData": []
+    },
+    "source-f": {
+        "staticInfo": "",
+        "realTimeData": []
+    },
+    "camera1": {
+        "staticInfo": "10.109.252.59:9093",
+        "realTimeData": ""
+    },
+    "camera2": {
+        "staticInfo": "10.109.252.59:9094",
+        "realTimeData": ""
+    },
+    "map1": {
+        "staticInfo": ["./static/image/map.jpg","./static/image/dot.png"],
+        "realTimeData": [[109.2,18.1],[109.5,18.4]]
+    },
+    "map2": {
+        "staticInfo": ["./static/image/map2.jpg","./static/image/dot2.png"],
+        "realTimeData": [[109.2,18.1],[109.5,18.4]]
+    }
+}

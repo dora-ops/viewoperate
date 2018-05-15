@@ -1,0 +1,94 @@
+{
+	"status": 1,
+	"result":{
+		"list":[
+		  {
+			"listName":"living",
+			"listContent":[
+			  {
+				"iconImg": "./static/image/lamp.png",
+				"servName" : "lamp",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/weather.png",
+				"servName" : "weather",
+				"template" : "Words",
+				"sources" : ["source-a", "source-b"]
+			  },{
+				"iconImg": "./static/image/wet.png",
+				"servName" : "wet",
+				"template" : "Pic",
+				"sources" : ["source-c", "source-d"]
+			  },{
+				"iconImg": "./static/image/stock.png",
+				"servName" : "stock",
+				"template" : "Chart",
+				"sources" : ["source-e", "source-f"]
+			  },{
+				"iconImg": "./static/image/camera.png",
+				"servName" : "camera",
+				"template" : "Video",
+				"sources" : ["camera1", "camera2"]
+			  },{
+				"iconImg": "./static/image/ais.png",
+				"servName" : "ais",
+				"template" : "Ais",
+				"sources" : ["map1", "map2"]
+			  }
+			]
+		  },{
+			"listName":"vehicle",
+			"listContent":[
+			  {
+				"iconImg": "./static/image/car.png",
+				"servName" : "car",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/bike.png",
+				"servName" : "bike",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/boat.png",
+				"servName" : "boat",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/airport.png",
+				"servName" : "airport",
+				"template" : "Pic",
+				"sources" : []
+			  }
+			]
+		  },{
+			"listName":"vehicle1",
+			"listContent":[
+			  {
+				"iconImg": "./static/image/car.png",
+				"servName" : "car",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/bike.png",
+				"servName" : "bike",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/boat.png",
+				"servName" : "boat",
+				"template" : "Pic",
+				"sources" : []
+			  },{
+				"iconImg": "./static/image/airport.png",
+				"servName" : "airport",
+				"template" : "Pic",
+				"sources" : []
+			  }
+			]
+		  }
+		]  
+	},
+	"message": ""
+}

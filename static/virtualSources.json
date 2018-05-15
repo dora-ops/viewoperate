@@ -1,0 +1,92 @@
+{
+    "readme": "绑定时根据service的staticInfo从Info中选择需要的数据按照格式存入sourcesNew的staticInfo",
+
+    "sources":[
+        {
+           "deviceName": "source-a",
+           "datasource": "source-a",
+           "Info": {
+               "company": "abc"
+           },
+           "realTimeData": "some words"
+        },
+        {
+            "deviceName": "source-b",
+            "datasource": "source-b", 
+            "Info": {
+                "company": "abc"
+            },
+            "realTimeData": "some words"
+        },
+        {
+            "deviceName": "source-c",
+            "datasource": "source-c", 
+            "Info": {
+                "company": "abc"
+            },
+            "realTimeData": "a picture url"
+        },
+        {
+            "deviceName": "source-d",
+            "datasource": "source-d",
+            "Info": {
+                "company": "abc"
+            },
+            "realTimeData": "a picture url"
+        },
+        {
+            "deviceName": "source-e",
+            "datasource": "source-e",
+            "Info": {
+                "company": "abc"
+            },
+            "realTimeData": "an array"
+        },
+        {
+            "deviceName": "source-f",
+            "datasource": "source-f",
+            "Info": {
+                "company": "abc"
+            },
+            "realTimeData": "an array"
+        },
+        {
+            "deviceName": "camera1",
+            "datasource": "camera1",
+            "Info": {
+                "company": "abc",
+                "src": "10.109.252.59:9093"
+            },
+            "realTimeData": ""
+        },
+        {
+            "deviceName": "camera2",
+            "datasource": "camera2",
+            "Info": {
+                "company": "abc",
+                "src": "10.109.252.59:9094"
+            },
+            "realTimeData": ""
+        },
+        {
+            "deviceName": "map1",
+            "datasource": "map1",
+            "Info": {
+                "company": "abc",
+                "map": "./static/image/map.jpg",
+                "potPic":"./static/image/dot.png"
+            },
+            "realTimeData": "[[x1,y1],[x2,y2],[x3,y3]... ]"
+        },
+        {
+            "deviceName": "map2",
+            "datasource": "map2",
+            "Info": {
+                "company": "abc",
+                "map": "./static/image/map2.jpg",
+                "potPic":"./static/image/dot2.png"
+            },
+            "realTimeData": "[[x1,y1],[x2,y2],[x3,y3]... ]"
+        }
+    ]
+}

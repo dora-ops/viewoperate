@@ -1,0 +1,78 @@
+{
+    "readme": "staticInfo和realTimeData分别是服务模板用到的设备信息和实时信息格式，仅起提示作用，根据不同的实体数据不同。测试用，因完全依赖于‘template字段，之后将废除，用dataType4template替代’",
+    "status": 1,
+    "list":[
+        {
+            "listName":"living",
+            "iconImg": "./static/image/lamp.png",
+            "servName" : "lamp",
+            "template" : "Pic",
+            "staticInfo": "",
+            "realTimeData": "a picture url"
+          },{
+            "listName":"living",
+            "iconImg": "./static/image/weather.png",
+            "servName" : "weather",
+            "template" : "Words",
+            "staticInfo": "",
+            "realTimeData": "some words"
+          },{
+            "listName":"living",
+            "iconImg": "./static/image/wet.png",
+            "servName" : "wet",
+            "template" : "Pic",
+            "staticInfo": "",
+            "realTimeData": "a picture url"
+          },{
+            "listName":"living",
+            "iconImg": "./static/image/stock.png",
+            "servName" : "stock",
+            "template" : "Chart",
+            "staticInfo": "",
+            "realTimeData": "[time,sth]"
+          },{
+            "listName":"living",
+            "iconImg": "./static/image/camera.png",
+            "servName" : "camera",
+            "template" : "Video",
+            "staticInfo": "ip:port",
+            "realTimeData": ""
+          },{
+            "listName":"living",
+            "iconImg": "./static/image/ais.png",
+            "servName" : "ais",
+            "template" : "Ais",
+            "staticInfo": "[a picture url,a picture url]",
+            "realTimeData": "[[x1,y1],[x2,y2],[x3,y3]...]"
+
+          },{
+            "listName":"vehicle",
+            "iconImg": "./static/image/car.png",
+            "servName" : "car",
+            "template" : "Pic",
+            "staticInfo": "",
+            "realTimeData": "a picture url"
+          },{
+            "listName":"vehicle",
+            "iconImg": "./static/image/bike.png",
+            "servName" : "bike",
+            "template" : "Pic",
+            "staticInfo": "",
+            "realTimeData": "a picture url"
+          },{
+            "listName":"vehicle",
+            "iconImg": "./static/image/boat.png",
+            "servName" : "boat",
+            "template" : "Pic",
+            "staticInfo": "",
+            "realTimeData": "a picture url"
+          },{
+            "listName":"vehicle",
+            "iconImg": "./static/image/airport.png",
+            "servName" : "airport",
+            "template" : "Pic",
+            "staticInfo": "",
+            "realTimeData": "a picture url"
+          }
+    ]
+}

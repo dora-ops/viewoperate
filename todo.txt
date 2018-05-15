@@ -1,0 +1,1 @@
+离开pizzahub页面后server还在发请求 server何时该terminal

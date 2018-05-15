@@ -1,0 +1,67 @@
+{
+    "readme": "绑定时根据service的realTimeData格式创建一个初始值initialData（填表单），并存入sourcesNew的realTimeData，作为将来接收socket数据之前的内容。",
+    
+  "entityList":[
+    {
+        "entityName": "weather1",
+        "servName": "weather",
+        "source": "source-a",
+        "initialData": "the text to show will come from source-a",
+        "status": "on"
+    }, {
+        "entityName": "weather2",
+        "servName": "weather",
+        "source": "source-b",
+        "initialData": "the text to show will come from source-b",
+        "status": "on"
+    }, {
+        "entityName": "wet1",
+        "servName": "wet",
+        "source": "source-c",
+        "initialData": "./static/image/source-c.jpg",
+        "status": "on"
+    }, {   
+        "entityName": "wet2",
+        "servName": "wet",
+        "source": "source-d",
+        "initialData": "./static/image/source-d.jpg",
+        "status": "on"
+    }, {   
+        "entityName": "stock1",
+        "servName": "stock",
+        "source": "source-e",
+        "initialData": [],
+        "status": "on"
+    }, {   
+        "entityName": "stock2",
+        "servName": "stock",
+        "source": "source-f",
+        "initialData": [],
+        "status": "on"
+    }, {   
+        "entityName": "camera1",
+        "servName": "camera",
+        "source": "camera1",
+        "initialData": "",
+        "status": "on"
+    }, {   
+        "entityName": "camera2",
+        "servName": "camera",
+        "source": "camera2",
+        "initialData": "",
+        "status": "on"
+    }, {   
+        "entityName": "ais1",
+        "servName": "ais",
+        "source": "map1",
+        "initialData": ["./static/image/map.jpg",[[109.2,18.1],[109.5,18.4]],"./static/image/dot.png"],
+        "status": "on"
+    }, {   
+        "entityName": "ais2",
+        "servName": "ais",
+        "source": "map2",
+        "initialData": ["./static/image/map2.jpg",[[109.2,18.1],[109.5,18.4]],"./static/image/dot2.png"],
+        "status": "on"
+    }
+  ]
+}
